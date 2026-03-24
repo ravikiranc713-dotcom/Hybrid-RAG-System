@@ -112,7 +112,7 @@ Combines:
 
 ### 1. Install Dependencies
 ```bash
-pip install -r requirements.txt
+pip install fastapi uvicorn sentence-transformers faiss-cpu rank-bm25 numpy requests
 ```
 
 ### 2. Start Ollama
