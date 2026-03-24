@@ -109,28 +109,23 @@ Combines:
 
 ## 🚀 Getting Started
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/hybrid-rag-system.git
-cd hybrid-rag-system
-```
 
-### 2. Install Dependencies
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Start Ollama
+### 2. Start Ollama
 ```bash
 ollama run phi
 ```
 
-### 4. Run API
+### 3. Run API
 ```bash
 uvicorn app:app --reload
 ```
 
-### 5. Test Query
+### 4. Test Query
 ```
 http://localhost:8000/query?q=What is RAG?
 ```
