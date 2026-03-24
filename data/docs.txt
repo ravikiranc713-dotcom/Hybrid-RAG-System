@@ -1,0 +1,118 @@
+# Section 1: Generative AI Basics
+
+Generative AI refers to models that can generate text, images, or other content based on input prompts. Large Language Models (LLMs) like GPT, Mistral, and LLaMA are widely used for text generation tasks.
+
+LLMs are trained on large corpora of text data and learn statistical patterns in language. They can perform tasks such as summarization, translation, and question answering.
+
+However, LLMs are prone to hallucination, where they generate incorrect or fabricated information confidently.
+
+---
+
+# Section 2: Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) is a technique that combines retrieval systems with language models to improve factual accuracy.
+
+In RAG, relevant documents are retrieved from a knowledge base and passed as context to the LLM.
+
+This reduces hallucination and improves answer reliability.
+
+Key components of RAG:
+- Document chunking
+- Embedding generation
+- Vector search
+- Context injection into prompts
+
+---
+
+# Section 3: Chunking Strategies
+
+Chunking is the process of splitting large documents into smaller pieces.
+
+Common strategies include:
+- Fixed-size chunking
+- Recursive chunking
+- Semantic chunking
+
+Smaller chunks improve retrieval precision but may lose context. Larger chunks preserve context but may reduce retrieval accuracy.
+
+---
+
+# Section 4: Embeddings and Vector Search
+
+Embeddings convert text into numerical vectors that capture semantic meaning.
+
+Vector databases like FAISS enable efficient similarity search.
+
+Cosine similarity or inner product is used to find similar documents.
+
+---
+
+# Section 5: Hybrid Search
+
+Hybrid search combines keyword-based search (BM25) with vector search.
+
+BM25 is effective for exact keyword matching, while vector search captures semantic similarity.
+
+Combining both improves retrieval performance significantly.
+
+---
+
+# Section 6: Reranking
+
+Reranking is used after retrieval to reorder documents based on relevance.
+
+Cross-encoders are commonly used for reranking as they consider query-document pairs.
+
+Reranking improves precision and helps select the most relevant context.
+
+---
+
+# Section 7: Prompt Engineering
+
+Prompt engineering involves designing inputs to guide LLM behavior.
+
+Key techniques:
+- Instruction prompts
+- Few-shot examples
+- Context grounding
+
+Proper prompting reduces hallucination and improves output quality.
+
+---
+
+# Section 8: LLM Evaluation
+
+Evaluating LLM systems is critical for production.
+
+Common metrics:
+- Recall@k (retrieval quality)
+- Answer accuracy
+- Faithfulness (does answer match context)
+- Hallucination rate
+
+LLM-as-judge is a popular method for automated evaluation.
+
+---
+
+# Section 9: Model Optimization
+
+LLMs are resource-intensive and require optimization for deployment.
+
+Techniques include:
+- Quantization (4-bit, 8-bit)
+- Model distillation
+- Prompt compression
+
+Quantization allows models to run on limited hardware like 4GB VRAM.
+
+---
+
+# Section 10: Applications of RAG
+
+RAG is widely used in:
+- Customer support chatbots
+- Document QA systems
+- Enterprise knowledge assistants
+- Healthcare and legal AI systems
+
+It enables domain-specific knowledge injection without retraining models.
