@@ -141,6 +141,11 @@ http://localhost:8000/query?q=What is RAG?
   "sources": ["doc1", "doc2", "doc3"]
 }
 ```
+---
+
+## 📸 Demo
+
+![RAG Demo](demo.png)
 
 ---
 
