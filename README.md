@@ -153,7 +153,7 @@ http://localhost:8000/query?q=What is RAG?
 
 ---
 
-## 📈 Benchmark Ideas (Add This!)
+## 📈 Benchmark Ideas
 
 You can extend this project with:
 
