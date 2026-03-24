@@ -165,18 +165,6 @@ You can extend this project with:
 
 ---
 
-## 🔥 Interview Talking Points
-
-This project demonstrates:
-
-- End-to-end **RAG pipeline design**
-- Tradeoffs: **BM25 vs Vector Search**
-- Importance of **reranking**
-- **Prompt engineering for hallucination control**
-- Running LLMs on **constrained hardware**
-
----
-
 ## 📌 Future Improvements
 
 - Streaming responses
